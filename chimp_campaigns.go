@@ -135,7 +135,7 @@ type CampaignCreateResponse struct {
 	Analytics          string `json:"analytics"`
 	AnalyticsTag       string `json:"analytics_tag"`
 	InlineCSS          bool   `json:"inline_css"`
-	Authenticate       bool   `json:authenticate"`
+	Authenticate       bool   `json:"authenticate"`
 	Ecommm360          bool   `json:"ecomm360"`
 	AutoTweet          bool   `json:"auto_tweet"`
 	AutoFacebookPort   string `json:"auto_fb_post"`
